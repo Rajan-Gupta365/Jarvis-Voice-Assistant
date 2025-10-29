@@ -7,7 +7,7 @@ import datetime # to check current time
 
 # setup for google api key
 import google.generativeai as genai  
-genai.configure(api_key="AIzaSyAV7nXYMei8jijfIPPfh8E17cDkFLXpnB0")  # connecting genai with  Gemini key
+genai.configure(api_key="AIz......(use your own api key) ")  # connecting genai with  Gemini key
 gemini_model = genai.GenerativeModel("models/gemini-2.5-flash") #selecting model to use
 
 # function to get answer from Google Gemini model
